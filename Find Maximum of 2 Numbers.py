@@ -3,5 +3,7 @@ b = int(input("Enter Number 2 :"))
 
 if(a>b):
     print("A is Greater")
-else:
+elif(b>a):
     print("B is Greater")
+else:
+    print("A is Equal to B")
